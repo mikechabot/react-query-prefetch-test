@@ -13,11 +13,11 @@ export default function Home() {
       <h1>Prefetch Rehydration Issue</h1>
       <hr/>
       <ol>
-        <li>Click <strong>Fetch More</strong> a few times</li>
-        <li>Click <strong>Page 1 (Non-Shallow)</strong> link</li>
+        <li>Click <strong>Fetch More</strong> a few times.</li>
+        <li>Click <strong>Page 1 (Non-Shallow)</strong> link.</li>
         <li>Once on <strong>Page 1</strong>, use the browser&apos;s back button, or click <strong>Home</strong> to route back here.</li>
         <li>Note the prefetched query cache has been cleared.</li>
-        <li>Repeat the same steps for <strong>Page 1 (Shallow)</strong></li>
+        <li>Repeat the same steps for <strong>Page 2 (Shallow)</strong></li>
       </ol>
       <hr />
       <div>
